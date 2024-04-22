@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "weibo-trend-predictions"
+version = "0.1.0"
+description = ""
+authors = ["Peng Rao <raopend@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+matplotlib = "^3.8.4"
+jupyter = "^1.0.0"
+scikit-learn = "^1.4.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
